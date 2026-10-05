@@ -1,4 +1,4 @@
-const persona = {
+let persona = {
     nombre: "Ezequiel",
     edad: 20,
     ciudad: "Málaga",
@@ -26,10 +26,10 @@ const persona = {
     }
 };
 
-const claves = Object.keys(persona);
+let claves = Object.keys(persona);
 
 console.log(claves);
 
-const valores = Object.values(persona);
+let valores = Object.values(persona);
 
 console.log(valores);
